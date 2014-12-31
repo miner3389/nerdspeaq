@@ -1,6 +1,7 @@
 package com.miner3389.nerdspeaq;
 
 import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
+import com.miner3389.nerdspeaq.init.NSBlocks;
 import com.miner3389.nerdspeaq.init.NSItems;
 import com.miner3389.nerdspeaq.proxies.IProxy;
 import com.miner3389.nerdspeaq.reference.NSModReference;
@@ -31,6 +32,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 		LoggingHelper.info("Pre Initialization Complete");
 		
 		NSItems.init();
+		NSBlocks.init();
 	}
 	
 	@Mod.EventHandler

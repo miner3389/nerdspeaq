@@ -21,12 +21,12 @@ public class NSItem extends Item{
 	
 	@Override
 	public String getUnlocalizedName(){
-		return String.format("item.%s%s", NSModReference.MOD_ID.toLowerCase() + ":", getUnwrapedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", NSModReference.TEXTURE_PREFRIX, getUnwrapedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
 	public String getUnlocalizedName(ItemStack itemstack){
-		return String.format("item.%s%s", NSModReference.MOD_ID.toLowerCase() + ":", getUnwrapedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", NSModReference.TEXTURE_PREFRIX, getUnwrapedUnlocalizedName(super.getUnlocalizedName()));
 	}
 	
 	@Override
