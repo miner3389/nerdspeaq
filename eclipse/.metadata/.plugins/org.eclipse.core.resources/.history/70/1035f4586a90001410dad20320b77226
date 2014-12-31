@@ -1,0 +1,11 @@
+package com.miner3389.nerdspeaq.client.gui;
+
+import cpw.mods.fml.client.config.GuiConfig;
+
+public class NSGuiConfig extends GuiConfig{
+	
+	public NSGuiConfig(GuiScreen guiScreen){
+		super(guiScreen, new ConfigElement(ConfigurationHandler.configuration.getCatagory(Configuration.CATAGORY_GENERAL)))
+	}
+	
+}

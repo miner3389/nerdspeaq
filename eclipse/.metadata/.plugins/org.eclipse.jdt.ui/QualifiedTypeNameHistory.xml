@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.config.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Level"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLLog"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.reference.NSModReference"/>
+</qualifiedTypeNameHistroy>

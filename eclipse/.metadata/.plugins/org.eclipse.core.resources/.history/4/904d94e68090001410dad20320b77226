@@ -1,0 +1,20 @@
+package com.miner3389.nerdspeaq.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class NSItem extends Item{
+	//Base Class
+	public NSItem(){
+		super();
+		this.maxStackSize = 64;
+		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setNoRepair();
+	}
+	
+	@Override
+	public String getUnlocalizedName(){
+		
+	}
+	
+}

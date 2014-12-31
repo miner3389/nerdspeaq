@@ -1,0 +1,12 @@
+package com.miner3389.nerdspeaq.items;
+
+import net.minecraft.item.Item;
+
+public class NSItem extends Item{
+	//Base Class
+	public NSItem(){
+		super();
+		this.setMaxStackSize = 64;
+	}
+	
+}

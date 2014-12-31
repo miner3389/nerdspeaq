@@ -1,0 +1,36 @@
+package com.miner3389.nerdspeaq;
+
+import com.miner3389.nerdspeaq.proxies.IProxy;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid="nerdspeaq", name="NerdSpeaq", version="1.7.10-0.1.0")
+public class NerdSpeaq {
+	
+	@Mod.Instance("nerdspeaq")
+	public static NerdSpeaq instance;
+	
+	@SidedProxy(clientSide = "com.miner3389.nerdspeaq.proxies.ClientProxy", serverSide = "com.miner3389.nerdspeaq.proxies.ServerProxy", modId = "nerdspeaq")
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event){
+		
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent event){
+		
+	}
+	
+	//Interact w/ other mods
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event){
+		
+	}
+	
+}

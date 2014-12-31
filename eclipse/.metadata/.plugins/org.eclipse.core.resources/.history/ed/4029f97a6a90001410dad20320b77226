@@ -1,0 +1,18 @@
+package com.miner3389.nerdspeaq.client.gui;
+
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraftforge.common.config.ConfigElement;
+import net.minecraftforge.common.config.Configuration;
+
+import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
+import com.miner3389.nerdspeaq.reference.NSModReference;
+
+import cpw.mods.fml.client.config.GuiConfig;
+
+public class NSGuiConfig extends GuiConfig{
+	
+	public NSGuiConfig(GuiScreen guiScreen){
+		super(guiScreen, new ConfigElement(ConfigurationHandler.configuration.getCatagory(Configuration.CATAGORY_GENERAL).getChildElement, NSModReference.MOD_ID, false, false, GuiConfig.getAbridgedConfigPath(ConfigurtaionHandler.configuration.toString())))
+	}
+	
+}
