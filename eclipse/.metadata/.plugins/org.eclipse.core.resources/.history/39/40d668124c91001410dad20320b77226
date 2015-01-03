@@ -1,0 +1,9 @@
+package com.miner3389.nerdspeaq.creativeTabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class NSMainTab extends CreativeTabs{
+	public NSMainTab(){
+		super("kleenex");
+	}
+}

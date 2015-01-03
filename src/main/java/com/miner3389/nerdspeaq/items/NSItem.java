@@ -5,6 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
+import com.miner3389.nerdspeaq.creativeTabs.NSCreativeTabs;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -15,7 +16,7 @@ public class NSItem extends Item{
 	public NSItem(){
 		super();
 		this.maxStackSize = 64;
-		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setCreativeTab(NSCreativeTabs.NSMAIN_TAB);
 		this.setNoRepair();
 	}
 	

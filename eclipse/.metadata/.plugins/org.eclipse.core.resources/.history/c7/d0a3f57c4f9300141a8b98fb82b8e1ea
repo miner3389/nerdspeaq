@@ -1,0 +1,9 @@
+package com.miner3389.nerdspeaq.items;
+
+public class ItemIngotBase extends NSItem{
+	public ItemIngotBase(){
+		super();
+		this.setUnlocalizedName("kleenex");
+		this.maxStackSize = 1;
+	}
+}

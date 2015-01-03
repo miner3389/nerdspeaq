@@ -1,9 +1,0 @@
-package com.miner3389.nerdspeaq.config;
-
-import java.io.File;
-
-public class ConfigurationHandler {
-	public static void init(File config){
-		
-	}
-}

@@ -8,4 +8,11 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.FMLLog"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.reference.NSModReference"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.init.NSRecipies"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.init.NSItems"/>
+<fullyQualifiedTypeName name="net.minecraftforge.oredict.ShapelessOreRecipe"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.items.ItemIngotBase"/>
 </qualifiedTypeNameHistroy>

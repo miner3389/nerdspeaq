@@ -1,8 +1,11 @@
 package com.miner3389.nerdspeaq;
 
+import org.apache.logging.log4j.core.jmx.Server;
+
 import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
 import com.miner3389.nerdspeaq.init.NSBlocks;
 import com.miner3389.nerdspeaq.init.NSItems;
+import com.miner3389.nerdspeaq.init.NSRecipies;
 import com.miner3389.nerdspeaq.proxies.IProxy;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 import com.miner3389.nerdspeaq.utility.LoggingHelper;
@@ -38,6 +41,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
 		LoggingHelper.info("Initialization Complete");
+		NSRecipies.init();
 	}
 	
 	//Interact w/ other mods

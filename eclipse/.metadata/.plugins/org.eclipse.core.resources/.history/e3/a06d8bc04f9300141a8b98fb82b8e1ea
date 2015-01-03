@@ -1,0 +1,8 @@
+package com.miner3389.nerdspeaq.items;
+
+public class ItemIngotLithium {
+	public ItemIngotLithium(){
+		super();
+		this.setUnlocalizedName("kleenex");
+	}
+}

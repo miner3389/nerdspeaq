@@ -5,3 +5,6 @@ item.nerdspeaq:kleenex.name=Kleenex
 
 #Block Localizations
 tile.nerdspeaq:furnace.name=Furnace
+
+#Creative Tab Localizations
+itemGroup.nerdspeaq:maintab=Nerd Speaq Main Tab

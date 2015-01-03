@@ -1,37 +1,28 @@
-[21:48:55] [main/INFO]: Setting user: Player199
-[21:48:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:49:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
-[21:49:02] [Sound Library Loader/INFO]: Sound engine started
-[21:49:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:49:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:49:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
-[21:49:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:49:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:49:04] [Sound Library Loader/INFO]: Sound engine started
-[21:49:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:49:11] [Server thread/INFO]: Generating keypair
-[21:49:12] [Server thread/INFO]: Preparing start region for level 0
-[21:49:13] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:49:13] [Server thread/INFO]: Player199[local:E:2c2dd07e] logged in with entity id 192 at (-422.0786258997442, 9.5, 279.59920350025925)
-[21:49:13] [Server thread/INFO]: Player199 joined the game
-[21:49:14] [Server thread/INFO]: Saving and pausing game...
-[21:49:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:49:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:49:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:50:02] [Server thread/INFO]: Saving and pausing game...
-[21:50:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:50:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:50:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:50:03] [Server thread/INFO]: Player199 has just earned the achievement [Taking Inventory]
-[21:50:03] [Client thread/INFO]: [CHAT] Player199 has just earned the achievement [Taking Inventory]
-[21:50:29] [Server thread/INFO]: Saving and pausing game...
-[21:50:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:50:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:50:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:50:30] [Server thread/INFO]: Stopping server
-[21:50:30] [Server thread/INFO]: Saving players
-[21:50:30] [Server thread/INFO]: Saving worlds
-[21:50:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:50:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:50:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:50:34] [Client thread/INFO]: Stopping!
+[07:46:51] [main/INFO]: Logging in with username & password
+[07:46:56] [main/INFO]: Setting user: miner3389
+[07:46:57] [Client thread/INFO]: LWJGL Version: 2.9.1
+[07:47:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
+[07:47:03] [Sound Library Loader/INFO]: Sound engine started
+[07:47:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[07:47:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[07:47:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
+[07:47:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[07:47:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[07:47:05] [Sound Library Loader/INFO]: Sound engine started
+[07:47:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[07:47:13] [Server thread/INFO]: Generating keypair
+[07:47:14] [Server thread/INFO]: Preparing start region for level 0
+[07:47:15] [Server thread/INFO]: Changing view distance to 12, from 10
+[07:47:15] [Server thread/INFO]: miner3389[local:E:93f0302c] logged in with entity id 229 at (-402.29599224518444, 20.260575021347442, 295.51001605838866)
+[07:47:15] [Server thread/INFO]: miner3389 joined the game
+[07:47:34] [Server thread/INFO]: Saving and pausing game...
+[07:47:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:47:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[07:47:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[07:47:35] [Server thread/INFO]: Stopping server
+[07:47:35] [Server thread/INFO]: Saving players
+[07:47:35] [Server thread/INFO]: Saving worlds
+[07:47:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:47:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[07:47:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[07:47:36] [Client thread/INFO]: Stopping!

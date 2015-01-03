@@ -7,6 +7,5 @@ public class BlockFurnace extends NSBlock{
 	public BlockFurnace(){
 		super();
 		this.setBlockName("furnace");
-		this.setCreativeTab(CreativeTabs.tabBlock);
 	}
 }

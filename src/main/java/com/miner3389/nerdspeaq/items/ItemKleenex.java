@@ -4,5 +4,6 @@ public class ItemKleenex extends NSItem{
 	public ItemKleenex(){
 		super();
 		this.setUnlocalizedName("kleenex");
+		this.maxStackSize = 1;
 	}
 }
