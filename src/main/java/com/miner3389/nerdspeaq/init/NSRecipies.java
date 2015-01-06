@@ -14,6 +14,7 @@ public class NSRecipies {
 	public static void init(){
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(NSItems.kleenex), "ccc", "ppp", 'p', new ItemStack(Items.paper), 'c', new ItemStack(Blocks.wool)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(NSBlocks.furnace), new ItemStack(NSItems.kleenex), new ItemStack(NSItems.kleenex)));
+
 	}
 	
 }

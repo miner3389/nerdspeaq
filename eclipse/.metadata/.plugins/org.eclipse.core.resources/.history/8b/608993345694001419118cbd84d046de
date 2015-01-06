@@ -1,0 +1,7 @@
+package com.miner3389.nerdspeaq.init;
+
+public class NSOreDictionary {
+	public static void init(){
+		
+	}
+}

@@ -1,7 +1,5 @@
 package com.miner3389.nerdspeaq;
 
-import org.apache.logging.log4j.core.jmx.Server;
-
 import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
 import com.miner3389.nerdspeaq.init.NSBlocks;
 import com.miner3389.nerdspeaq.init.NSItems;
@@ -20,6 +18,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid=NSModReference.MOD_ID, name=NSModReference.MOD_NAME, version=NSModReference.VERSION, guiFactory=NSModReference.GUI_FACTORY_CLASS)
  public class NerdSpeaq {
 	
+	//Hey, you should put that song from the scene Ocean's Twelve where the Nightfox is going through the laser field on your programming play list
 	@Mod.Instance(NSModReference.MOD_ID)
 	public static NerdSpeaq instance;
 	
@@ -48,6 +47,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event){
 		LoggingHelper.info("Post Initialization Complete");
+		NSOredictionary.init();
 	}
 	
 }

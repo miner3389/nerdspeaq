@@ -15,4 +15,6 @@
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.init.NSItems"/>
 <fullyQualifiedTypeName name="net.minecraftforge.oredict.ShapelessOreRecipe"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.items.ItemIngotBase"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.items.IngotBase"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.items.ItemPowderCarbon"/>
 </qualifiedTypeNameHistroy>

@@ -12,6 +12,9 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public class NSItem extends Item{
+	
+	private String unlocalizedName;
+	
 	//Base Class
 	public NSItem(){
 		super();

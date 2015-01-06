@@ -2,9 +2,25 @@
 
 #Item Localizations
 item.nerdspeaq:kleenex.name=Kleenex
+item.nerdspeaq:ingotLithium.name=Lithium Ingot
+item.nerdspeaq:ingotBeryllium.name=Beryllium Ingot
+item.nerdspeaq:ingotBoron.name=Boron Ingot
+item.nerdspeaq:powderCarbon.name=Carbon Powder
+item.nerdspeaq:ingotSodium.name=Sodium Ingot
+item.nerdspeaq:ingotMagnesium.name=Magnesium Ingot
+item.nerdspeaq:ingotAluminum.name=Aluminum Ingot
+item.nerdspeaq:bouleSilicon.name=Silicon Boule
 
 #Block Localizations
 tile.nerdspeaq:furnace.name=Furnace
+tile.nerdspeaq:oreLithium.name=Lithium Ore
+tile.nerdspeaq:oreBeryllium.name=Beryllium Ore
+tile.nerdspeaq:oreBoron.name=Boron Ore
+tile.nerdspeaq:oreCarbon.name=Carbon Ore
+tile.nerdspeaq:oreSodium.name=Sodium Ore
+tile.nerdspeaq:oreMagnesium.name=Magnesium Ore
+tile.nerdspeaq:oreAluminum.name=Aluminum Ore
+tile.nerdspeaq:oreSilicon.name=Silicon Ore
 
 #Creative Tab Localizations
 itemGroup.nerdspeaq:maintab=Nerd Speaq Main Tab
