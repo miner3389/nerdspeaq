@@ -1,8 +1,0 @@
-package com.miner3389.nerdspeaq.blocks;
-
-public class BlockFurnace extends NSBlock{
-	public BlockFurnace(){
-		super();
-		this.setBlockName("furnace");
-	}
-}

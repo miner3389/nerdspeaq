@@ -1,7 +1,0 @@
-package com.miner3389.nerdspeaq.items;
-
-public class IngotBase extends NSItem{
-	public IngotBase(){
-		super();
-	}
-}

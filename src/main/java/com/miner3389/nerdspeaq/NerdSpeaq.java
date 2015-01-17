@@ -1,8 +1,10 @@
 package com.miner3389.nerdspeaq;
 
+import com.miner3389.nerdspeaq.client.handler.KeyInputEventHandler;
 import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
 import com.miner3389.nerdspeaq.init.NSBlocks;
 import com.miner3389.nerdspeaq.init.NSItems;
+import com.miner3389.nerdspeaq.init.NSOreDictionary;
 import com.miner3389.nerdspeaq.init.NSRecipies;
 import com.miner3389.nerdspeaq.proxies.IProxy;
 import com.miner3389.nerdspeaq.reference.NSModReference;
@@ -27,27 +29,37 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 			modId = NSModReference.MOD_ID)
 	public static IProxy proxy;
 	
+	//Init stuff
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-		LoggingHelper.info("Pre Initialization Complete");
+
+		proxy.registerKeyBindings();
 		
 		NSItems.init();
 		NSBlocks.init();
+		
+		LoggingHelper.info("Pre Initialization Complete");
+
 	}
 	
+	//Other Stuff
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
-		LoggingHelper.info("Initialization Complete");
+		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		
 		NSRecipies.init();
+		
+		LoggingHelper.info("Initialization Complete");
 	}
 	
 	//Interact w/ other mods
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event){
+		NSOreDictionary.init();
+
 		LoggingHelper.info("Post Initialization Complete");
-		NSOredictionary.init();
 	}
 	
 }

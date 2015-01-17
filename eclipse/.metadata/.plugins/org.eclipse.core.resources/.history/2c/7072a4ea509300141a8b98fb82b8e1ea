@@ -1,9 +1,0 @@
-package com.miner3389.nerdspeaq.items;
-
-public class ItemIngotCarbon extends NSItem {
-	public ItemIngotCarbon(){
-		super();
-		this.setUnlocalizedName("ingotCarbon");
-	}
-
-}

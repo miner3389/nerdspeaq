@@ -4,6 +4,7 @@ import com.miner3389.nerdspeaq.blocks.BlockFurnace;
 import com.miner3389.nerdspeaq.blocks.BlockOreAluminum;
 import com.miner3389.nerdspeaq.blocks.BlockOreBeryllium;
 import com.miner3389.nerdspeaq.blocks.BlockOreBoron;
+import com.miner3389.nerdspeaq.blocks.BlockOreCarbon;
 import com.miner3389.nerdspeaq.blocks.BlockOreLithium;
 import com.miner3389.nerdspeaq.blocks.BlockOreMagnesium;
 import com.miner3389.nerdspeaq.blocks.BlockOreSilicon;
@@ -19,6 +20,7 @@ public class NSBlocks {
 	public static final NSBlock lithiumOre = new BlockOreLithium();
 	public static final NSBlock berylliumOre = new BlockOreBeryllium();
 	public static final NSBlock boronOre = new BlockOreBoron();
+	public static final NSBlock carbonOre = new BlockOreCarbon();
 	public static final NSBlock sodiumOre = new BlockOreSilicon();
 	public static final NSBlock magnesiumOre = new BlockOreMagnesium();
 	public static final NSBlock aluminumOre = new BlockOreAluminum();
@@ -30,6 +32,7 @@ public class NSBlocks {
 		GameRegistry.registerBlock(lithiumOre, "lithiumOre");
 		GameRegistry.registerBlock(berylliumOre, "berylliumOre");
 		GameRegistry.registerBlock(boronOre, "boronOre");
+		GameRegistry.registerBlock(carbonOre, "carbonOre");
 		GameRegistry.registerBlock(sodiumOre, "sodiumOre");
 		GameRegistry.registerBlock(magnesiumOre, "magnesiumOre");
 		GameRegistry.registerBlock(aluminumOre, "aluminumOre");

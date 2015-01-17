@@ -1,7 +1,0 @@
-package com.miner3389.nerdspeaq.client.gui;
-
-import cpw.mods.fml.client.config.GuiConfig;
-
-public class NSGuiConfig extends GuiConfig{
-
-}

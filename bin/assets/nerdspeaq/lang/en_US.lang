@@ -1,4 +1,7 @@
 #Key Localization
+keys.nerdspeaq.catagory=Nerdspeaq
+keys.nerdspeaq.charge=Charge
+keys.nerdspeaq.release=Release
 
 #Item Localizations
 item.nerdspeaq:kleenex.name=Kleenex

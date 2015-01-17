@@ -1,8 +1,8 @@
-[15:15:35] [main/INFO]: Setting user: Player631
-[15:15:36] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:15:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
-[15:15:42] [Sound Library Loader/INFO]: Sound engine started
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreSilicon.png
+[17:17:21] [main/INFO]: Setting user: Player645
+[17:17:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:17:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
+[17:17:27] [Sound Library Loader/INFO]: Sound engine started
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreSilicon.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreSilicon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,7 +22,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreSilicon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreAluminum.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreAluminum.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreAluminum.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -42,7 +42,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreAluminum.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBeryllium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBeryllium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBeryllium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -62,7 +62,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBeryllium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreLithium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreLithium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreLithium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -82,7 +82,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreLithium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBoron.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBoron.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBoron.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -102,7 +102,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBoron.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreMagnesium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreMagnesium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreMagnesium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -122,7 +122,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreMagnesium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:42] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreCarbon.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreCarbon.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreCarbon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -142,8 +142,8 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreCarbon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBoron.png
+[17:17:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBoron.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBoron.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -163,7 +163,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBoron.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotAluminum.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotAluminum.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotAluminum.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -183,7 +183,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotAluminum.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotLithium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotLithium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotLithium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -203,7 +203,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotLithium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/powderCarbon.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/powderCarbon.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/powderCarbon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -223,7 +223,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/powderCarbon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotMagnesium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotMagnesium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotMagnesium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -243,7 +243,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotMagnesium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBeryllium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBeryllium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBeryllium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -263,7 +263,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBeryllium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotSodium.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotSodium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotSodium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -283,7 +283,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotSodium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/bouleSilicon.png
+[17:17:28] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/bouleSilicon.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/bouleSilicon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -303,9 +303,9 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/bouleSilicon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:15:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBoron.png
+[17:17:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:17:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NerdSpeaq
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBoron.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBoron.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -328,7 +328,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBoron.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotAluminum.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotAluminum.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotAluminum.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -351,7 +351,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotAluminum.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotLithium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotLithium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotLithium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -374,7 +374,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotLithium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/powderCarbon.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/powderCarbon.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/powderCarbon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -397,7 +397,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/powderCarbon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotMagnesium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotMagnesium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotMagnesium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -420,7 +420,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotMagnesium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBeryllium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotBeryllium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBeryllium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -443,7 +443,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotBeryllium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotSodium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/ingotSodium.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/ingotSodium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -466,7 +466,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/ingotSodium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/bouleSilicon.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/items/bouleSilicon.png
 java.io.FileNotFoundException: nerdspeaq:textures/items/bouleSilicon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -489,8 +489,8 @@ java.io.FileNotFoundException: nerdspeaq:textures/items/bouleSilicon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreSilicon.png
+[17:17:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreSilicon.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreSilicon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -513,7 +513,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreSilicon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreAluminum.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreAluminum.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreAluminum.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -536,7 +536,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreAluminum.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBeryllium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBeryllium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBeryllium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -559,7 +559,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBeryllium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreLithium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreLithium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreLithium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -582,7 +582,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreLithium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBoron.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreBoron.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBoron.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -605,7 +605,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreBoron.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreMagnesium.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreMagnesium.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreMagnesium.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -628,7 +628,7 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreMagnesium.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreCarbon.png
+[17:17:29] [Client thread/ERROR]: Using missing texture, unable to load nerdspeaq:textures/blocks/oreCarbon.png
 java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreCarbon.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -651,65 +651,25 @@ java.io.FileNotFoundException: nerdspeaq:textures/blocks/oreCarbon.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[15:15:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:15:44] [Sound Library Loader/INFO]: Sound engine started
-[15:15:48] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:15:48] [Server thread/INFO]: Generating keypair
-[15:15:48] [Server thread/INFO]: Preparing start region for level 0
-[15:15:49] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:15:49] [Server thread/INFO]: Player631[local:E:5db5ae94] logged in with entity id 231 at (-274.94443988453384, 20.739092136997783, 167.20760087039963)
-[15:15:49] [Server thread/INFO]: Player631 joined the game
-[15:15:51] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@29ad3fba[id=63bf8c57-1166-37df-b325-c9439bdf7ed3,name=Player631,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:53) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:50) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:148) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:133) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439) [?:1.6.0_65]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [?:1.6.0_65]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [?:1.6.0_65]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895) [?:1.6.0_65]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918) [?:1.6.0_65]
-	at java.lang.Thread.run(Thread.java:695) [?:1.6.0_65]
-Caused by: java.net.UnknownHostException: sessionserver.mojang.com
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:223) ~[?:1.6.0_65]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:431) ~[?:1.6.0_65]
-	at java.net.Socket.connect(Socket.java:527) ~[?:1.6.0_65]
-	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:570) ~[?:1.6]
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:158) ~[?:1.6.0_65]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:424) ~[?:1.6.0_65]
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:538) ~[?:1.6.0_65]
-	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:276) ~[?:1.6]
-	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367) ~[?:1.6]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:172) ~[?:1.6]
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:966) ~[?:1.6.0_65]
-	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:158) ~[?:1.6]
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195) ~[?:1.6.0_65]
-	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234) ~[?:1.6]
-	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
-	... 19 more
-[15:15:52] [Server thread/INFO]: Player631 has just earned the achievement [Taking Inventory]
-[15:15:52] [Client thread/INFO]: [CHAT] Player631 has just earned the achievement [Taking Inventory]
-[15:15:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2879ms behind, skipping 57 tick(s)
-[15:15:59] [Server thread/INFO]: Saving and pausing game...
-[15:15:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:15:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:15:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:16:00] [Server thread/INFO]: Stopping server
-[15:16:00] [Server thread/INFO]: Saving players
-[15:16:00] [Server thread/INFO]: Saving worlds
-[15:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:16:02] [Client thread/INFO]: Stopping!
+[17:17:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:17:30] [Sound Library Loader/INFO]: Sound engine started
+[17:17:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:17:32] [Server thread/INFO]: Generating keypair
+[17:17:32] [Server thread/INFO]: Preparing start region for level 0
+[17:17:33] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:17:34] [Server thread/INFO]: Player645[local:E:158719dd] logged in with entity id 250 at (-276.58907288351645, 20.739092136997783, 166.52332328662536)
+[17:17:34] [Server thread/INFO]: Player645 joined the game
+[17:17:36] [Server thread/INFO]: Player645 has just earned the achievement [Taking Inventory]
+[17:17:36] [Client thread/INFO]: [CHAT] Player645 has just earned the achievement [Taking Inventory]
+[17:17:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2847ms behind, skipping 56 tick(s)
+[17:17:52] [Server thread/INFO]: Saving and pausing game...
+[17:17:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:17:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:17:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:17:53] [Server thread/INFO]: Stopping server
+[17:17:53] [Server thread/INFO]: Saving players
+[17:17:53] [Server thread/INFO]: Saving worlds
+[17:17:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[17:17:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[17:17:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[17:17:54] [Client thread/INFO]: Stopping!

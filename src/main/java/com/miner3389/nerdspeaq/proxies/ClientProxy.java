@@ -1,5 +1,14 @@
 package com.miner3389.nerdspeaq.proxies;
 
+import com.miner3389.nerdspeaq.client.settings.NSKeyBindings;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+
 public class ClientProxy extends CommonProxy{
 
+	@Override
+	public void registerKeyBindings() {
+		ClientRegistry.registerKeyBinding(NSKeyBindings.charge);
+		ClientRegistry.registerKeyBinding(NSKeyBindings.release);
+	}
 }
