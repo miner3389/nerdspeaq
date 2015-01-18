@@ -1,0 +1,9 @@
+package com.miner3389.nerdspeaq.items;
+
+public class ItemIngotSilver extends NSItem {
+	public ItemIngotCopper(){
+		super();
+		this.setUnlocalizedName("ingotSilver");
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.miner3389.nerdspeaq.init;
+
+import net.minecraftforge.oredict.OreDictionary;
+
+public class NSOreDictionary {
+	public static void init(){
+		
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotAluminum);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotBrass);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotBronze);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotCobalt);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotCopper);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotLead);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotNickel);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotPlatinum);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotSilver);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotTin);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotTungsten);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotZinc);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.thorium);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.uranium);
+
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+
+	}
+}

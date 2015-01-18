@@ -1,0 +1,13 @@
+package com.miner3389.nerdspeaq.init;
+
+import net.minecraftforge.oredict.OreDictionary;
+
+public class NSOreDictionary {
+	public static void init(){
+		
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotCopper);
+
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+
+	}
+}

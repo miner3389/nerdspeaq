@@ -9,6 +9,8 @@ import com.miner3389.nerdspeaq.init.NSRecipies;
 import com.miner3389.nerdspeaq.proxies.IProxy;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 import com.miner3389.nerdspeaq.utility.LoggingHelper;
+import com.miner3389.nerdspeaq.world.gen.NSWorldGeneratorOre;
+import com.miner3389.nerdspeaq.world.gen.NSWorldGeneratorStructures;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -16,6 +18,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid=NSModReference.MOD_ID, name=NSModReference.MOD_NAME, version=NSModReference.VERSION, guiFactory=NSModReference.GUI_FACTORY_CLASS)
  public class NerdSpeaq {
@@ -39,6 +42,9 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 		
 		NSItems.init();
 		NSBlocks.init();
+		
+		GameRegistry.registerWorldGenerator(new NSWorldGeneratorStructures(), 0);
+		GameRegistry.registerWorldGenerator(new NSWorldGeneratorOre(), 0);
 		
 		LoggingHelper.info("Pre Initialization Complete");
 

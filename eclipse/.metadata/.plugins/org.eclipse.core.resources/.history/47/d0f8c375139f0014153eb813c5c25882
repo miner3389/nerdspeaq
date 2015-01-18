@@ -1,0 +1,18 @@
+package com.miner3389.nerdspeaq.init;
+
+import com.miner3389.nerdspeaq.blocks.BlockOreSodium;
+import com.miner3389.nerdspeaq.blocks.NSBlock;
+import com.miner3389.nerdspeaq.reference.NSModReference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(NSModReference.MOD_ID)
+public class NSBlocks {
+	public static final NSBlock sodiumOre = new BlockOreSodium();
+	
+	
+	
+	public static void init(){
+		GameRegistry.registerBlock(sodiumOre, "sodiumOre");
+	}
+}

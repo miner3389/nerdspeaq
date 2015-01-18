@@ -19,6 +19,8 @@ public class KeyInputEventHandler {
 	
 	@SubscribeEvent
 	public void handleKeyInputEvent(InputEvent.KeyInputEvent event){
-		LoggingHelper.info(getPressedKeybinding());
+		if(getPressedKeybinding() != Key.UNKNOWN){
+			LoggingHelper.info(getPressedKeybinding());
+		}
 	}
 }

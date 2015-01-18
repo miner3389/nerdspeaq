@@ -4,6 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
 
 import com.miner3389.nerdspeaq.creativeTabs.NSCreativeTabs;
 import com.miner3389.nerdspeaq.reference.NSModReference;

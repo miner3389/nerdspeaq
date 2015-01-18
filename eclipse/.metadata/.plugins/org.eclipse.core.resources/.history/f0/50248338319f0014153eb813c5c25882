@@ -1,0 +1,24 @@
+#Key Localization
+keys.nerdspeaq.catagory=Nerdspeaq
+keys.nerdspeaq.charge=Charge
+keys.nerdspeaq.release=Release
+
+#Item Localizations
+item.nerdspeaq:ingotCopper.name=Copper Ingot
+
+#Block Localizations
+tile.nerdspeaq:oreBauxite.name=Bauxite Ore
+tile.nerdspeaq:oreCassiterite.name=Cassiterite Ore
+tile.nerdspeaq:oreCobalite.name=Cobalite Ore
+tile.nerdspeaq:oreGalena.name=Galena Ore
+tile.nerdspeaq:oreMalachite.name=Malachite Ore
+tile.nerdspeaq:oreMonazite.name=Monazite Ore
+tile.nerdspeaq:oreNativePlatinum.name=Native Platinum Ore
+tile.nerdspeaq:oreNativeSilver.name=Native Silver Ore
+tile.nerdspeaq:orePentandite.name=Pentandite Ore
+tile.nerdspeaq:oreSphalerite.name=Sphalerite Ore
+tile.nerdspeaq:oreUranium.name=Uranium Ore
+tile.nerdspeaq:oreWolframite.name=Wolframite Ore
+
+#Creative Tab Localizations
+itemGroup.nerdspeaq:maintab=Nerd Speaq Main Tab

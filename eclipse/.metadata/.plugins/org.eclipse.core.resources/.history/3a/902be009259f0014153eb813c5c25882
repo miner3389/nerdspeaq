@@ -1,0 +1,9 @@
+package com.miner3389.nerdspeaq.blocks;
+
+public class BlockOreMonazite extends NSBlock {
+	public BlockOreMalachite(){
+		super();
+		this.setBlockName("oreMalachite");
+	}
+
+}

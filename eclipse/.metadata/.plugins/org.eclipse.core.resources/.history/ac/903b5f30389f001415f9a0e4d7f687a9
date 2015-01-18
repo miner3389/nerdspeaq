@@ -1,0 +1,107 @@
+package com.miner3389.nerdspeaq.world.gen;
+
+import java.util.Random;
+
+import net.minecraft.world.World;
+import net.minecraft.world.chunk.IChunkProvider;
+import net.minecraft.world.gen.feature.WorldGenMinable;
+
+import com.miner3389.nerdspeaq.init.NSBlocks;
+
+import cpw.mods.fml.common.IWorldGenerator;
+
+public class NSWorldGeneratorOre implements IWorldGenerator{
+	
+	private WorldGenMinable bauxiteOre = new WorldGenMinable(NSBlocks.bauxiteOre, 8);
+	private WorldGenMinable cassiteriteOre = new WorldGenMinable(NSBlocks.cassiteriteOre, 8);
+	private WorldGenMinable cobaliteOre = new WorldGenMinable(NSBlocks.cobaliteOre, 2);
+	private WorldGenMinable galenaOre = new WorldGenMinable(NSBlocks.galenaOre, 8);
+	private WorldGenMinable malachiteOre = new WorldGenMinable(NSBlocks.malachiteOre, 8);
+	private WorldGenMinable monaziteOre = new WorldGenMinable(NSBlocks.monaziteOre, 16);
+	private WorldGenMinable nativePlatinumOre = new WorldGenMinable(NSBlocks.nativePlatinumOre, 1);
+	private WorldGenMinable nativeSilverOre = new WorldGenMinable(NSBlocks.nativeSilverOre, 6);
+	private WorldGenMinable pentanditeOre = new WorldGenMinable(NSBlocks.pentanditeOre, 8);
+	private WorldGenMinable sphaleriteOre = new WorldGenMinable(NSBlocks.sphaleriteOre, 8);
+	private WorldGenMinable uraniumOre = new WorldGenMinable(NSBlocks.uraniumOre, 6);
+	private WorldGenMinable wolframiteOre = new WorldGenMinable(NSBlocks.wolframiteOre, 1);
+	
+	@Override
+	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
+		if(world.provider.dimensionId != 1 && world.provider.dimensionId != -1){
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(80);
+				int z = chunkZ * 16 + random.nextInt(16);
+				bauxiteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(80);
+				int z = chunkZ * 16 + random.nextInt(16);
+				cassiteriteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 20; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(30);
+				int z = chunkZ * 16 + random.nextInt(16);
+				cobaliteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(45);
+				int z = chunkZ * 16 + random.nextInt(16);
+				galenaOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(80);
+				int z = chunkZ * 16 + random.nextInt(16);
+				malachiteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 40; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(40);
+				int z = chunkZ * 16 + random.nextInt(16);
+				monaziteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 10; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(20);
+				int z = chunkZ * 16 + random.nextInt(16);
+				nativePlatinumOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 20; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(30);
+				int z = chunkZ * 16 + random.nextInt(16);
+				nativeSilverOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(80);
+				int z = chunkZ * 16 + random.nextInt(16);
+				pentanditeOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 70; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(80);
+				int z = chunkZ * 16 + random.nextInt(16);
+				sphaleriteOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 20; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(30);
+				int z = chunkZ * 16 + random.nextInt(16);
+				uraniumOre.generate(world, random, x, y, z);
+			}
+			for(int i = 0; i < 10; i++){
+				int x = chunkX * 16 + random.nextInt(16);
+				int y = random.nextInt(20);
+				int z = chunkZ * 16 + random.nextInt(16);
+				wolframiteOre.generate(world, random, x, y, z);
+			}
+		}
+	}
+	
+
+}

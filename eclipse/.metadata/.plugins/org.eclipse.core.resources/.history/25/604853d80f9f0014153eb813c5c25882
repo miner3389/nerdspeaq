@@ -1,0 +1,27 @@
+package com.miner3389.nerdspeaq.init;
+
+import com.miner3389.nerdspeaq.blocks.BlockFurnace;
+import com.miner3389.nerdspeaq.blocks.BlockHouseGen;
+import com.miner3389.nerdspeaq.blocks.BlockOreAluminum;
+import com.miner3389.nerdspeaq.blocks.BlockOreBeryllium;
+import com.miner3389.nerdspeaq.blocks.BlockOreBoron;
+import com.miner3389.nerdspeaq.blocks.BlockOreCarbon;
+import com.miner3389.nerdspeaq.blocks.BlockOreLithium;
+import com.miner3389.nerdspeaq.blocks.BlockOreMagnesium;
+import com.miner3389.nerdspeaq.blocks.BlockOreSilicon;
+import com.miner3389.nerdspeaq.blocks.BlockOreSodium;
+import com.miner3389.nerdspeaq.blocks.NSBlock;
+import com.miner3389.nerdspeaq.reference.NSModReference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(NSModReference.MOD_ID)
+public class NSBlocks {
+	public static final NSBlock sodiumOre = new BlockOreSodium();
+	
+	
+	
+	public static void init(){
+		GameRegistry.registerBlock(sodiumOre, "sodiumOre");
+	}
+}

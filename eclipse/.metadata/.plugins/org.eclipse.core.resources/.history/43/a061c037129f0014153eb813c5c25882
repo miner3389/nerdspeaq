@@ -1,0 +1,8 @@
+package com.miner3389.nerdspeaq.items;
+
+public class ItemMagnetite extends NSItem {
+	public ItemMagnetite(){
+		super();
+		this.setUnlocalizedName("magnetite");
+	}
+}

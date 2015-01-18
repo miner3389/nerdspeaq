@@ -1,0 +1,28 @@
+package com.miner3389.nerdspeaq.init;
+
+import com.miner3389.nerdspeaq.items.ItemBouleSilicon;
+import com.miner3389.nerdspeaq.items.ItemIngotAluminum;
+import com.miner3389.nerdspeaq.items.ItemIngotBeryllium;
+import com.miner3389.nerdspeaq.items.ItemIngotBoron;
+import com.miner3389.nerdspeaq.items.ItemIngotLithium;
+import com.miner3389.nerdspeaq.items.ItemIngotMagnesium;
+import com.miner3389.nerdspeaq.items.ItemIngotSodium;
+import com.miner3389.nerdspeaq.items.ItemKleenex;
+import com.miner3389.nerdspeaq.items.ItemPowderCarbon;
+import com.miner3389.nerdspeaq.items.NSItem;
+import com.miner3389.nerdspeaq.reference.NSModReference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(NSModReference.MOD_ID)
+public class NSItems {
+	
+	public static final NSItem powderCarbon = new ItemPowderCarbon();
+
+	public static void init(){
+		
+		GameRegistry.registerItem(powderCarbon, "powderCarbon");
+		
+	}
+	 
+}

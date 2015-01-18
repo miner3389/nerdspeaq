@@ -1,0 +1,10 @@
+package com.miner3389.nerdspeaq.blocks;
+
+import javax.media.j3d.Material;
+
+public class BlockHouseGen extends NSBlock{
+	public BlockHouseGen(){
+		
+	}
+	
+}

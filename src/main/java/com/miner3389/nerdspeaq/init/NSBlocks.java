@@ -1,13 +1,17 @@
 package com.miner3389.nerdspeaq.init;
 
-import com.miner3389.nerdspeaq.blocks.BlockFurnace;
-import com.miner3389.nerdspeaq.blocks.BlockOreAluminum;
-import com.miner3389.nerdspeaq.blocks.BlockOreBeryllium;
-import com.miner3389.nerdspeaq.blocks.BlockOreBoron;
-import com.miner3389.nerdspeaq.blocks.BlockOreCarbon;
-import com.miner3389.nerdspeaq.blocks.BlockOreLithium;
-import com.miner3389.nerdspeaq.blocks.BlockOreMagnesium;
-import com.miner3389.nerdspeaq.blocks.BlockOreSilicon;
+import com.miner3389.nerdspeaq.blocks.BlockOreBauxite;
+import com.miner3389.nerdspeaq.blocks.BlockOreCassiterite;
+import com.miner3389.nerdspeaq.blocks.BlockOreCobalite;
+import com.miner3389.nerdspeaq.blocks.BlockOreGalena;
+import com.miner3389.nerdspeaq.blocks.BlockOreMalachite;
+import com.miner3389.nerdspeaq.blocks.BlockOreMonazite;
+import com.miner3389.nerdspeaq.blocks.BlockOreNativePlatinum;
+import com.miner3389.nerdspeaq.blocks.BlockOreNativeSilver;
+import com.miner3389.nerdspeaq.blocks.BlockOrePentandite;
+import com.miner3389.nerdspeaq.blocks.BlockOreSphalerite;
+import com.miner3389.nerdspeaq.blocks.BlockOreUranium;
+import com.miner3389.nerdspeaq.blocks.BlockOreWolframite;
 import com.miner3389.nerdspeaq.blocks.NSBlock;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 
@@ -15,27 +19,32 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(NSModReference.MOD_ID)
 public class NSBlocks {
-	public static final NSBlock furnace = new BlockFurnace();
-	
-	public static final NSBlock lithiumOre = new BlockOreLithium();
-	public static final NSBlock berylliumOre = new BlockOreBeryllium();
-	public static final NSBlock boronOre = new BlockOreBoron();
-	public static final NSBlock carbonOre = new BlockOreCarbon();
-	public static final NSBlock sodiumOre = new BlockOreSilicon();
-	public static final NSBlock magnesiumOre = new BlockOreMagnesium();
-	public static final NSBlock aluminumOre = new BlockOreAluminum();
-	public static final NSBlock siliconOre = new BlockOreSilicon();
+	public static final NSBlock bauxiteOre = new BlockOreBauxite();
+	public static final NSBlock cassiteriteOre = new BlockOreCassiterite();
+	public static final NSBlock cobaliteOre = new BlockOreCobalite();
+	public static final NSBlock galenaOre = new BlockOreGalena();
+	public static final NSBlock malachiteOre = new BlockOreMalachite();
+	public static final NSBlock monaziteOre = new BlockOreMonazite();
+	public static final NSBlock nativePlatinumOre = new BlockOreNativePlatinum();
+	public static final NSBlock nativeSilverOre = new BlockOreNativeSilver();
+	public static final NSBlock pentanditeOre = new BlockOrePentandite();
+	public static final NSBlock sphaleriteOre = new BlockOreSphalerite();
+	public static final NSBlock uraniumOre = new BlockOreUranium();
+	public static final NSBlock wolframiteOre = new BlockOreWolframite();
 	
 	public static void init(){
-		GameRegistry.registerBlock(furnace, "furnace");
-		
-		GameRegistry.registerBlock(lithiumOre, "lithiumOre");
-		GameRegistry.registerBlock(berylliumOre, "berylliumOre");
-		GameRegistry.registerBlock(boronOre, "boronOre");
-		GameRegistry.registerBlock(carbonOre, "carbonOre");
-		GameRegistry.registerBlock(sodiumOre, "sodiumOre");
-		GameRegistry.registerBlock(magnesiumOre, "magnesiumOre");
-		GameRegistry.registerBlock(aluminumOre, "aluminumOre");
-		GameRegistry.registerBlock(siliconOre, "siliconOre");
+		GameRegistry.registerBlock(bauxiteOre, "bauxiteOre");
+		GameRegistry.registerBlock(cassiteriteOre, "cassiteriteOre");
+		GameRegistry.registerBlock(cobaliteOre, "cobaliteOre");
+		GameRegistry.registerBlock(galenaOre, "glenaOre");
+		GameRegistry.registerBlock(malachiteOre, "malachiteOre");
+		GameRegistry.registerBlock(monaziteOre, "monaziteOre");
+		GameRegistry.registerBlock(nativePlatinumOre, "nativePlatinumOre");
+		GameRegistry.registerBlock(nativeSilverOre, "nativeSilverOre");
+		GameRegistry.registerBlock(pentanditeOre, "pentanditeOre");
+		GameRegistry.registerBlock(sphaleriteOre, "sphaleriteOre");
+		GameRegistry.registerBlock(uraniumOre, "uraniumOre");
+		GameRegistry.registerBlock(wolframiteOre, "wolframiteOre");
+
 	}
 }

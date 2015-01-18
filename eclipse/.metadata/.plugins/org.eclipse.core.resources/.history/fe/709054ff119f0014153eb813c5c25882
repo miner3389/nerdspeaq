@@ -1,0 +1,10 @@
+package com.miner3389.nerdspeaq.items;
+
+public class ItemMagnetite {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

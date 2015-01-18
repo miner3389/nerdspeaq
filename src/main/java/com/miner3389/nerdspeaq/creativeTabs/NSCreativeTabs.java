@@ -16,7 +16,7 @@ public class NSCreativeTabs {
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem()
 		{
-			return NSItems.kleenex;
+			return NSItems.ingotTungsten;
 		}
 	};	
 }

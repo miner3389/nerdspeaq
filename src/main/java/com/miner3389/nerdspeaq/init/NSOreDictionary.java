@@ -4,21 +4,34 @@ import net.minecraftforge.oredict.OreDictionary;
 
 public class NSOreDictionary {
 	public static void init(){
-		OreDictionary.registerOre(NSItems.ingotLithium.getUnlocalizedName(), NSItems.ingotLithium);
-		OreDictionary.registerOre(NSItems.ingotBeryllium.getUnlocalizedName(), NSItems.ingotBeryllium);
-		OreDictionary.registerOre(NSItems.ingotBoron.getUnlocalizedName(), NSItems.ingotBoron);
-		OreDictionary.registerOre(NSItems.powderCarbon.getUnlocalizedName(), NSItems.powderCarbon);
-		OreDictionary.registerOre(NSItems.ingotSodium.getUnlocalizedName(), NSItems.ingotSodium);
-		OreDictionary.registerOre(NSItems.ingotMagnesium.getUnlocalizedName(), NSItems.ingotMagnesium);
-		OreDictionary.registerOre(NSItems.ingotAluminum.getUnlocalizedName(), NSItems.ingotAluminum);
-		OreDictionary.registerOre(NSItems.bouleSilicon.getUnlocalizedName(), NSItems.bouleSilicon);
 		
-		OreDictionary.registerOre(NSBlocks.lithiumOre.getUnlocalizedName(), NSBlocks.lithiumOre);
-		OreDictionary.registerOre(NSBlocks.berylliumOre.getUnlocalizedName(), NSBlocks.berylliumOre);
-		OreDictionary.registerOre(NSBlocks.boronOre.getUnlocalizedName(), NSBlocks.boronOre);
-		OreDictionary.registerOre(NSBlocks.sodiumOre.getUnlocalizedName(), NSBlocks.sodiumOre);
-		OreDictionary.registerOre(NSBlocks.magnesiumOre.getUnlocalizedName(), NSBlocks.magnesiumOre);
-		OreDictionary.registerOre(NSBlocks.aluminumOre.getUnlocalizedName(), NSBlocks.aluminumOre);
-		OreDictionary.registerOre(NSBlocks.siliconOre.getUnlocalizedName(), NSBlocks.siliconOre);
+		OreDictionary.registerOre(NSItems.ingotAluminum.getUnlocalizedName(), NSItems.ingotAluminum);
+		OreDictionary.registerOre(NSItems.ingotBrass.getUnlocalizedName(), NSItems.ingotBrass);
+		OreDictionary.registerOre(NSItems.ingotBronze.getUnlocalizedName(), NSItems.ingotBronze);
+		OreDictionary.registerOre(NSItems.ingotCobalt.getUnlocalizedName(), NSItems.ingotCobalt);
+		OreDictionary.registerOre(NSItems.ingotCopper.getUnlocalizedName(), NSItems.ingotCopper);
+		OreDictionary.registerOre(NSItems.ingotLead.getUnlocalizedName(), NSItems.ingotLead);
+		OreDictionary.registerOre(NSItems.ingotNickel.getUnlocalizedName(), NSItems.ingotNickel);
+		OreDictionary.registerOre(NSItems.ingotPlatinum.getUnlocalizedName(), NSItems.ingotPlatinum);
+		OreDictionary.registerOre(NSItems.ingotSilver.getUnlocalizedName(), NSItems.ingotSilver);
+		OreDictionary.registerOre(NSItems.ingotTin.getUnlocalizedName(), NSItems.ingotTin);
+		OreDictionary.registerOre(NSItems.ingotTungsten.getUnlocalizedName(), NSItems.ingotTungsten);
+		OreDictionary.registerOre(NSItems.ingotZinc.getUnlocalizedName(), NSItems.ingotZinc);
+		OreDictionary.registerOre(NSItems.thorium.getUnlocalizedName(), NSItems.thorium);
+		OreDictionary.registerOre(NSItems.uranium.getUnlocalizedName(), NSItems.uranium);
+
+		OreDictionary.registerOre(NSBlocks.bauxiteOre.getUnlocalizedName(), NSBlocks.bauxiteOre);
+		OreDictionary.registerOre(NSBlocks.cassiteriteOre.getUnlocalizedName(), NSBlocks.cassiteriteOre);
+		OreDictionary.registerOre(NSBlocks.cobaliteOre.getUnlocalizedName(), NSBlocks.cobaliteOre);
+		OreDictionary.registerOre(NSBlocks.galenaOre.getUnlocalizedName(), NSBlocks.galenaOre);
+		OreDictionary.registerOre(NSBlocks.malachiteOre.getUnlocalizedName(), NSBlocks.malachiteOre);
+		OreDictionary.registerOre(NSBlocks.monaziteOre.getUnlocalizedName(), NSBlocks.monaziteOre);
+		OreDictionary.registerOre(NSBlocks.nativePlatinumOre.getUnlocalizedName(), NSBlocks.nativePlatinumOre);
+		OreDictionary.registerOre(NSBlocks.nativeSilverOre.getUnlocalizedName(), NSBlocks.nativeSilverOre);
+		OreDictionary.registerOre(NSBlocks.pentanditeOre.getUnlocalizedName(), NSBlocks.pentanditeOre);
+		OreDictionary.registerOre(NSBlocks.sphaleriteOre.getUnlocalizedName(), NSBlocks.sphaleriteOre);
+		OreDictionary.registerOre(NSBlocks.uraniumOre.getUnlocalizedName(), NSBlocks.uraniumOre);
+		OreDictionary.registerOre(NSBlocks.wolframiteOre.getUnlocalizedName(), NSBlocks.wolframiteOre);
+
 	}
 }
