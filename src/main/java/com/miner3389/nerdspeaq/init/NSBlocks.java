@@ -12,6 +12,7 @@ import com.miner3389.nerdspeaq.blocks.BlockOrePentandite;
 import com.miner3389.nerdspeaq.blocks.BlockOreSphalerite;
 import com.miner3389.nerdspeaq.blocks.BlockOreUranium;
 import com.miner3389.nerdspeaq.blocks.BlockOreWolframite;
+import com.miner3389.nerdspeaq.blocks.BlockTest;
 import com.miner3389.nerdspeaq.blocks.NSBlock;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 
@@ -31,6 +32,7 @@ public class NSBlocks {
 	public static final NSBlock sphaleriteOre = new BlockOreSphalerite();
 	public static final NSBlock uraniumOre = new BlockOreUranium();
 	public static final NSBlock wolframiteOre = new BlockOreWolframite();
+	public static final NSBlock testBlock = new BlockTest();
 	
 	public static void init(){
 		GameRegistry.registerBlock(bauxiteOre, "bauxiteOre");
@@ -45,6 +47,6 @@ public class NSBlocks {
 		GameRegistry.registerBlock(sphaleriteOre, "sphaleriteOre");
 		GameRegistry.registerBlock(uraniumOre, "uraniumOre");
 		GameRegistry.registerBlock(wolframiteOre, "wolframiteOre");
-
+		GameRegistry.registerBlock(testBlock, "testBlock");
 	}
 }

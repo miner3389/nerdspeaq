@@ -1,0 +1,8 @@
+package com.miner3389.nerdspeaq.blocks;
+
+public class BlockTest extends NSBlock{
+	public BlockTest(){
+		super();
+		this.setBlockName("testBlock");
+	}
+}

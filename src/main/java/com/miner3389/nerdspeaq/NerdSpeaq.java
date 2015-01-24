@@ -1,11 +1,12 @@
 package com.miner3389.nerdspeaq;
 
-import com.miner3389.nerdspeaq.client.handler.KeyInputEventHandler;
+import com.miner3389.nerdspeaq.client.handler.KeyInputHandler;
 import com.miner3389.nerdspeaq.handler.ConfigurationHandler;
 import com.miner3389.nerdspeaq.init.NSBlocks;
 import com.miner3389.nerdspeaq.init.NSItems;
 import com.miner3389.nerdspeaq.init.NSOreDictionary;
 import com.miner3389.nerdspeaq.init.NSRecipies;
+import com.miner3389.nerdspeaq.network.NetworkHandler;
 import com.miner3389.nerdspeaq.proxies.IProxy;
 import com.miner3389.nerdspeaq.reference.NSModReference;
 import com.miner3389.nerdspeaq.utility.LoggingHelper;
@@ -35,16 +36,23 @@ import cpw.mods.fml.common.registry.GameRegistry;
 	//Init stuff
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event){
+		LoggingHelper.info("Configuring Configuration");
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		
+		LoggingHelper.info("Registering Proxies");
 		proxy.registerKeyBindings();
 		
+		LoggingHelper.info("Registering Blocks and Items");
 		NSItems.init();
 		NSBlocks.init();
 		
+		LoggingHelper.info("Registering World Generation");
 		GameRegistry.registerWorldGenerator(new NSWorldGeneratorStructures(), 0);
 		GameRegistry.registerWorldGenerator(new NSWorldGeneratorOre(), 0);
+		
+		LoggingHelper.info("Registering Network Handler");
+		NetworkHandler.init();
 		
 		LoggingHelper.info("Pre Initialization Complete");
 
@@ -53,8 +61,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 	//Other Stuff
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
-		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		LoggingHelper.info("Binding Keys");
+		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
 		
+		LoggingHelper.info("Registering Recipies");
 		NSRecipies.init();
 		
 		LoggingHelper.info("Initialization Complete");
@@ -63,6 +73,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 	//Interact w/ other mods
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event){
+		LoggingHelper.info("Writing entries into Ore Dictionary");
 		NSOreDictionary.init();
 
 		LoggingHelper.info("Post Initialization Complete");

@@ -1,0 +1,7 @@
+package com.miner3389.nerdspeaq.network;
+
+import cpw.mods.fml.common.network.simpleimpl.IMessage;
+
+public class MessageBase implements IMessage{
+
+}

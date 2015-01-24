@@ -1,0 +1,27 @@
+package com.miner3389.nerdspeaq.client.handler;
+
+import com.miner3389.nerdspeaq.client.settings.NSKeyBindings;
+import com.miner3389.nerdspeaq.reference.Key;
+import com.miner3389.nerdspeaq.utility.LoggingHelper;
+
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.gameevent.InputEvent;
+
+public enum KeyInputEventHandler {
+	
+	private static Key getPressedKeybinding(){
+		if (NSKeyBindings.explode.isPressed()){
+			return Key.EXPLODE;
+		}
+		return Key.UNKNOWN;
+	}
+	
+	@SubscribeEvent
+	public void handleKeyInputEvent(InputEvent.KeyInputEvent event){
+		if(getPressedKeybinding() != Key.UNKNOWN){
+			if(getPressedKeybinding() == Key.EXPLODE){
+				LoggingHelper.info("Boom");
+			}
+		}
+	}
+}

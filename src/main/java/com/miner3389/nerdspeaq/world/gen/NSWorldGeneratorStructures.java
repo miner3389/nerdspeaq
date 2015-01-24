@@ -2,6 +2,8 @@ package com.miner3389.nerdspeaq.world.gen;
 
 import java.util.Random;
 
+import com.miner3389.nerdspeaq.init.NSBlocks;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
@@ -29,8 +31,8 @@ public class NSWorldGeneratorStructures implements IWorldGenerator {
 						world.setBlock(x + i, y, z + j, Blocks.planks);
 					}
 				}
+				world.setBlock(x, y + 1, z, NSBlocks.testBlock);
 			}
 		}
 	}
-
 }

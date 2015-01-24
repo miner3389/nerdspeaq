@@ -1,8 +1,0 @@
-package com.miner3389.nerdspeaq.client.handler;
-
-public class KeyInputEventHandler {
-	@SubscribeEvent
-	public void handleKeyInputEvent(InputEvent.KeyInputEvent event){
-		
-	}
-}

@@ -1,0 +1,28 @@
+package com.miner3389.nerdspeaq.client.settings;
+
+import net.minecraft.client.settings.KeyBinding;
+
+import org.lwjgl.input.Keyboard;
+
+import com.miner3389.nerdspeaq.reference.NSNamesReference;
+import com.miner3389.nerdspeaq.reference.NSNamesReference.Keys;
+
+public enum NSKeyBindings {
+	
+	EXPLODE("key.nerdspeaq.explode", Keyboard.KEY_C);
+	
+	private final KeyBinding keybinding;
+	
+	private NSKeyBindings(String keyName, int defaultKeyCode) {
+		keybinding = new KeyBinding(keyName, defaultKeyCode, "key.nerdspeaq.category");
+	}
+	
+	public KeyBinding getKeybind(){
+		return keybinding;
+	}
+	
+	public boolean isPressed(){
+		return keybinding.isPressed();
+	}
+	
+}

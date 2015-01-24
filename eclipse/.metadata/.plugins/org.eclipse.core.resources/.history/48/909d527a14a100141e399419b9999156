@@ -1,0 +1,16 @@
+package com.miner3389.nerdspeaq.proxies;
+
+import com.miner3389.nerdspeaq.client.settings.NSKeyBindings;
+import com.miner3389.nerdspeaq.reference.Key;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.common.FMLCommonHandler;
+
+public class ClientProxy extends CommonProxy{
+
+	@Override
+	public void registerKeyBindings() {
+		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
+		ClientRegistry.registerKeyBinding(NSKeyBindings.explode);
+	}
+}

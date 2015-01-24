@@ -1,7 +1,6 @@
 #Key Localization
 keys.nerdspeaq.catagory=Nerdspeaq
-keys.nerdspeaq.charge=Charge
-keys.nerdspeaq.release=Release
+keys.nerdspeaq.explode=Explode
 
 #Item Localizations
 item.nerdspeaq:ingotCopper.name=Aluminum Ingot
@@ -32,6 +31,7 @@ tile.nerdspeaq:orePentandite.name=Pentandite Ore
 tile.nerdspeaq:oreSphalerite.name=Sphalerite Ore
 tile.nerdspeaq:oreUranium.name=Uranium Ore
 tile.nerdspeaq:oreWolframite.name=Wolframite Ore
+tile.nerdspeaq:testBlock.name=Test Block
 
 #Creative Tab Localizations
 itemGroup.nerdspeaq:maintab=Nerd Speaq Main Tab

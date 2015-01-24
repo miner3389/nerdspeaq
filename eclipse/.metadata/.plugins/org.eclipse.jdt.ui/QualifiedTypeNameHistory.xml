@@ -21,11 +21,14 @@
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.init.NSOreDictionary"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.blocks.BlockOreCarbon"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.client.registry.ClientRegistry"/>
-<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
 <fullyQualifiedTypeName name="net.minecraft.client.settings.KeyBinding"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.reference.NSNamesReference.Keys"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.client.settings.NSKeyBindings"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.gameevent.InputEvent"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.init.NSBlocks"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
 <fullyQualifiedTypeName name="com.miner3389.nerdspeaq.reference.Key"/>
+<fullyQualifiedTypeName name="com.miner3389.nerdspeaq.client.handler.KeyInputEventHandler"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
 </qualifiedTypeNameHistroy>

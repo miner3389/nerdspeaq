@@ -1,0 +1,5 @@
+package com.miner3389.nerdspeaq.network;
+
+public class NetworkHandler {
+	private static SimpleNetworkWrapper wrapper = NetworkRegistry.wrappper.newSimpleChannel
+}
